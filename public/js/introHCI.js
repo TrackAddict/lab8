@@ -9,7 +9,7 @@ $(document).ready(function() {
  * Function that is called when the document is ready.
  */
 function initializePage() {
-	$(button).click(sendEvent);
+	$(likeBtn).click(sendEvent);
 };
 
 function sendEvent(e)
