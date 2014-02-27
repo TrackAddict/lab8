@@ -10,9 +10,9 @@ $(document).ready(function() {
  */
 function initializePage() {
 	$(button).click(sendEvent);
+}
 
-	function sendEvent(event e)
+function sendEvent(event e)
 	{
 		ga('send', 'event', 'like', 'click');
 	}
-}
