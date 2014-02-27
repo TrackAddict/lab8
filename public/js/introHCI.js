@@ -12,7 +12,7 @@ function initializePage() {
 	$(button).click(sendEvent);
 };
 
-function sendEvent(event e)
+function sendEvent(e)
 	{
 		ga('send', 'event', 'like', 'click');
 	};
