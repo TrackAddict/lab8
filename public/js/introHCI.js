@@ -9,5 +9,10 @@ $(document).ready(function() {
  * Function that is called when the document is ready.
  */
 function initializePage() {
-	ga('send', 'event', 'like', 'click');
+	$(button).click(sendEvent);
+
+	function sendEvent(event e)
+	{
+		ga('send', 'event', 'like', 'click');
+	}
 }
